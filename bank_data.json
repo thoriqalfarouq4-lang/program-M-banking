@@ -1,0 +1,74 @@
+{
+    "accounts": {
+        "100001": {
+            "account_number": "100001",
+            "account_holder": "muhammad ridho ilahirizki",
+            "balance": 198000000.0,
+            "transaction_history": [
+                {
+                    "date": "2026-01-03 03:53:35",
+                    "type": "Akun dibuat",
+                    "amount": 100000.0,
+                    "balance": 100000.0
+                },
+                {
+                    "date": "2026-01-03 03:57:37",
+                    "type": "Deposit",
+                    "amount": 200000000.0,
+                    "balance": 200100000.0
+                },
+                {
+                    "date": "2026-01-03 03:59:08",
+                    "type": "Transfer dari 100002",
+                    "amount": 100000.0,
+                    "balance": 200200000.0
+                },
+                {
+                    "date": "2026-01-03 04:00:34",
+                    "type": "Transfer ke 100002",
+                    "amount": -200000.0,
+                    "balance": 200000000.0
+                },
+                {
+                    "date": "2026-01-03 16:59:29",
+                    "type": "Transfer ke 100002",
+                    "amount": -2000000.0,
+                    "balance": 198000000.0
+                }
+            ],
+            "created_at": "2026-01-03 03:53:35"
+        },
+        "100002": {
+            "account_number": "100002",
+            "account_holder": "ido",
+            "balance": 2350000.0,
+            "transaction_history": [
+                {
+                    "date": "2026-01-03 03:58:21",
+                    "type": "Akun dibuat",
+                    "amount": 250000.0,
+                    "balance": 250000.0
+                },
+                {
+                    "date": "2026-01-03 03:59:08",
+                    "type": "Transfer ke 100001",
+                    "amount": -100000.0,
+                    "balance": 150000.0
+                },
+                {
+                    "date": "2026-01-03 04:00:34",
+                    "type": "Transfer dari 100001",
+                    "amount": 200000.0,
+                    "balance": 350000.0
+                },
+                {
+                    "date": "2026-01-03 16:59:29",
+                    "type": "Transfer dari 100001",
+                    "amount": 2000000.0,
+                    "balance": 2350000.0
+                }
+            ],
+            "created_at": "2026-01-03 03:58:21"
+        }
+    }
+}
